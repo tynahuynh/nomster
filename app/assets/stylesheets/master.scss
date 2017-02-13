@@ -20,10 +20,16 @@ h1, h2, h3, h4, h5, h6 {
 body {
   background: image_url('cream_pixels/cream_pixels.png');
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  
+
 }
 
 .navbar {
   background: image_url('simple_dashed/simple_dashed.png');
   box-shadow: 0px 5px 5px grey;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #8CBAAA;
+  font-family: 'acherus_grotesqueregular', sans-serif;
+  font-size: 30px;
 }
