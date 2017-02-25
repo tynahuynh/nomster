@@ -71,13 +71,14 @@
   </div>
 
   <h1>Photos</h1>
-
+  <div class="row">
   <% @place.photos.each do |photo| %>
-
-        <%= image_tag photo.picture %>
-        <%= photo.caption %>
-
+        <div class="col-sm-4">
+        <%= image_tag photo.picture, class: "image-class" %>
+        <span class="caption"><%= photo.caption %></span>
+        </div>
   <% end %> 
+  </div>
 
 
 
