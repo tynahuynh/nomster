@@ -71,7 +71,7 @@
   </div>
 
   <h1>Photos</h1>
-  <div class="row">
+  <div class="row no-gutters">
   <% @place.photos.each do |photo| %>
         <div class="col-sm-4 text-center">
         <%= image_tag photo.picture, class: "image-class" %>
